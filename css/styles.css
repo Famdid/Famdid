@@ -1,0 +1,187 @@
+body {
+    background-color: magenta;
+}
+
+h1 {
+    height: 20px;
+}
+
+.container {
+    background-color: black;
+    justify-content: space-around;
+    /*max-width: 1200px;*/
+    width: 65%;
+    margin: auto;
+    color: magenta;
+    padding: 10px;
+}
+
+.leftSide {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  width: 15%;
+}
+
+.rightSide {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  width: 15%;
+}
+
+.interior-container {
+    display: inline-block;
+}
+
+.alignTextCenter {
+    text-align: center;
+}
+
+.ricardo {
+  background-color: black;
+  background-image: url("https://media0.giphy.com/media/UtcBRO8cxulRzkrVLc/giphy.gif");
+  justify-content: space-around;
+  /*max-width: 1200px;*/
+  width: 65%;
+  margin: auto;
+  color: magenta;
+  padding: 10px;
+}
+
+#links {
+    border-top: dashed;
+    border-bottom: dashed;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.inline {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 32px;
+}
+
+.lightOnHover {
+    color: hotpink;
+}
+
+.lightOnHover:hover {
+    color: magenta;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.giphy {
+  width:100%;
+}
+
+#profilePic {
+    width:20%;
+}
+
+#marthFace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px 100px;
+    background-color: magenta;
+}
+
+#marthProfilePic {
+    display: block;
+    border-radius: 100px 100px;
+    background-color: magenta;
+}
+
+#bioText::first-letter {
+    font-size: x-large;
+}
+
+input {
+    border: solid;
+    border-color: silver;
+}
+
+textarea {
+    border: solid;
+    border-color: silver;
+}
+img {
+    display: inline;
+    white-space: nowrap;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* Part 3 Portfolio Project */
+
+.topfixed {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+
+.projects {
+    background-color: lightgrey;
+    position: fixed;
+    z-index: 1;
+}
+
+.person {
+    justify-content: space-around;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.personText {
+  width:60%;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-style: italic;
+}
+
+.center {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: magenta;
+  text-align: center;
+}
+
+.welcomeh1 {
+  font-size: 46px;
+}
+
+.welcomeh2 {
+  font-size: 26px;
+}
+
+.discordText {
+  margin-bottom: 0px;
+  line-height: 0px;
+}
